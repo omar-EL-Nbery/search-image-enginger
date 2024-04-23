@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #020611;
+}
+
+.button{
+   
+    display: block;
+    text-align: center;
+    margin: 10px auto;
+}
+img {
+  display: block;
+  max-width: 100%;
+
+}
+
+.contanier {
+  width: 90%;
+  padding: 1rem;
+  margin: auto;
+
+  text-align: center;
+}
+
+.contanier input {
+  width: 70%;
+}
+
+.image-container {
+  padding-top: 1rem;
+  margin: auto;
+ 
+}
+
+.image-container img {
+   max-width: 100%;
+}
+
+@media screen and (min-width: 50em) {
+  .image-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .image-container img {
+    flex: 1 0 auto;
+    max-width: 100%; 
+    max-height: 300px;
+  }
+}
